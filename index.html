@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Designs by Cam</title>
+  <link href="https://fonts.googleapis.com/css?family=Merienda+One|Noto+Sans+JP" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="jquery.ripples.js"></script>
+</head>
+
+<body>
+  <script>
+  $(document).ready(function () {
+    $(".greeting").fadeIn(3000).toggleClass("vis");
+    $(".greeting").fadeOut(3000).toggleClass("vis");
+    $(".name").delay(6000).fadeIn(3000).toggleClass("vis");
+    $(".name").fadeOut(3000).toggleClass("vis");
+    $(".invitation").delay(12000).fadeIn(3000).toggleClass("vis");
+    $(".invitation").fadeOut(3000).toggleClass("vis");
+    $(".continue").delay(18000).fadeIn(2000).toggleClass("vis");
+});
+  </script>
+
+  <section>
+    <div class="greeting">Hi...</div>
+    <div class="name">I'm Cam</div>
+    <div class="invitation"><em>let me show you some of things I can create</em></div>
+    <div class="continue"><a href="Contact-me.html">Click here to continue</a></div>
+  </section>
+
+ <script>
+    $('body').ripples({
+     resolution: 1350,
+     dropRadius: 10,
+     perturbance: 0.01,
+     });
+
+     // Automatic drops - the rain effect
+	setInterval(function() {
+		var $el = $('body');
+		var x = Math.random() * $el.outerWidth();
+		var y = Math.random() * $el.outerHeight();
+		var dropRadius = 10;
+		var strength = 0.04 + Math.random() * 0.04;
+		$el.ripples('drop', x, y, dropRadius, strength);
+	}, 400);
+
+
+  setTimeout(function(){
+    $('body').ripples('hide')
+  }, 30000);
+ </script>
+</body>
+
+</html>
