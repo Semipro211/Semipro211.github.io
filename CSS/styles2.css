@@ -25,7 +25,7 @@ body::before {
 }
 section {
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
   padding-left: 100px;
   padding-right: 100px;
   margin-bottom: 60px;
