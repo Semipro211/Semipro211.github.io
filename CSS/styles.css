@@ -55,53 +55,79 @@ a:hover {
 a:active {
   color: blue;
 }
-.greeting {
+.one {
   display: none;
   font-family: 'Noto Sans JP',sans-serif;
   font-size: 2em;
   font-style: normal;
   font-weight: 100;
 }
-.greeting vis {
+.one vis {
   font-family: 'Noto Sans JP',sans-serif;
   font-size: 2em;
   font-style: normal;
   font-weight: 100;
 }
-.name {
+.two {
   display: none;
   font-family: 'Merienda One',cursive;
   font-size: 2em;
   font-style: normal;
   font-weight: 100;
 }
-.name vis {
+.two vis {
   font-family: 'Merienda One',cursive;
   font-size: 2em;
   font-style: normal;
   font-weight: 100;
 }
-.invitation {
+.three {
   display: none;
   font-family: 'Merienda One',cursive;
   font-size: 1em;
   font-style: normal;
   font-weight: 100;
 }
-.invitation vis {
+.three vis {
   font-family: 'Merienda One',cursive;
   font-size: 1em;
   font-style: normal;
   font-weight: 100;
 }
-.continue {
+.four {
   display: none;
   font-family: 'Noto Sans JP',sans-serif;
   font-size: 2em;
   font-style: normal;
   font-weight: 100;
 }
-.continue vis {
+.four vis {
+  font-family: 'Noto Sans JP',sans-serif;
+  font-size: 2em;
+  font-style: normal;
+  font-weight: 100;
+}
+.five {
+  display: none;
+  font-family: 'Noto Sans JP',sans-serif;
+  font-size: 2em;
+  font-style: normal;
+  font-weight: 100;
+}
+.five vis {
+  font-family: 'Noto Sans JP',sans-serif;
+  font-size: 2em;
+  font-style: normal;
+  font-weight: 100;
+}
+.six {
+  display: none;
+  font-family: 'Noto Sans JP',sans-serif;
+  font-size: 2em;
+  font-style: normal;
+  font-weight: 100;
+}
+.six vis {
   font-family: 'Noto Sans JP',sans-serif;
   font-size: 2em;
   font-style: normal;
