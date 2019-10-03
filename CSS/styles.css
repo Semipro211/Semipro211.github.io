@@ -5,7 +5,7 @@ html {
 body {
   font-size: 24px;
   color: #fff;
-  background-image: url("CSS/597309.png");
+  background-image: url(https://images2.alphacoders.com/597/597309.jpg);
   -webkit-background-size: cover;
   background-size: cover;
   background-position: 50%;
@@ -57,13 +57,13 @@ a:active {
 }
 .one {
   display: none;
-  font-family: 'Noto Sans JP',sans-serif;
+  font-family: 'Merienda One',cursive;
   font-size: 2em;
   font-style: normal;
   font-weight: 100;
 }
 .one vis {
-  font-family: 'Noto Sans JP',sans-serif;
+  font-family: 'Merienda One',cursive;
   font-size: 2em;
   font-style: normal;
   font-weight: 100;
@@ -84,51 +84,51 @@ a:active {
 .three {
   display: none;
   font-family: 'Merienda One',cursive;
-  font-size: 1em;
+  font-size: 2em;
   font-style: normal;
   font-weight: 100;
 }
 .three vis {
   font-family: 'Merienda One',cursive;
-  font-size: 1em;
+  font-size: 2em;
   font-style: normal;
   font-weight: 100;
 }
 .four {
   display: none;
-  font-family: 'Noto Sans JP',sans-serif;
+  font-family: 'Merienda One',cursive;
   font-size: 2em;
   font-style: normal;
   font-weight: 100;
 }
 .four vis {
-  font-family: 'Noto Sans JP',sans-serif;
+  font-family: 'Merienda One',cursive;
   font-size: 2em;
   font-style: normal;
   font-weight: 100;
 }
 .five {
   display: none;
-  font-family: 'Noto Sans JP',sans-serif;
+  font-family: 'Merienda One',cursive;
   font-size: 2em;
   font-style: normal;
   font-weight: 100;
 }
 .five vis {
-  font-family: 'Noto Sans JP',sans-serif;
+  font-family: 'Merienda One',cursive;
   font-size: 2em;
   font-style: normal;
   font-weight: 100;
 }
 .six {
   display: none;
-  font-family: 'Noto Sans JP',sans-serif;
+  font-family: 'Merienda One',cursive;
   font-size: 2em;
   font-style: normal;
   font-weight: 100;
 }
 .six vis {
-  font-family: 'Noto Sans JP',sans-serif;
+  font-family: 'Merienda One',cursive;
   font-size: 2em;
   font-style: normal;
   font-weight: 100;

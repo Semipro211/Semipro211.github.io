@@ -13,19 +13,25 @@
 <body>
   <script>
   $(document).ready(function () {
-    $(".one").fadeIn(3000).toggleClass("vis");
-    $(".two").delay(6000).fadeIn(3000).toggleClass("vis");
+    $(".one").fadeIn(2000).toggleClass("vis");
+    $(".one").delay(2000).fadeOut(1000).toggleClass("vis");
+    $(".two").delay(6000).fadeIn(2000).toggleClass("vis");
+    $(".two").delay(2000).fadeOut(1000).toggleClass("vis");
     $(".three").delay(12000).fadeIn(3000).toggleClass("vis");
+    $(".three").delay(2000).fadeOut(1000).toggleClass("vis");
     $(".four").delay(18000).fadeIn(3000).toggleClass("vis");
-    $(".five").delay(21000).fadeIn(3000).toggleClass("vis");
-    $(".six").delay(24000).fadeIn(3000).toggleClass("vis");
+    $(".four").delay(2000).fadeOut(1000).toggleClass("vis");
+    $(".five").delay(24000).fadeIn(3000).toggleClass("vis");
+    $(".five").delay(2000).fadeOut(1000).toggleClass("vis");
+    $(".six").delay(30000).fadeIn(3000).toggleClass("vis");
+    $(".six").delay(2000).fadeOut(1000).toggleClass("vis");
 });
   </script>
 
   <section>
     <div class="one">Nicole...</div>
     <div class="two">You are my everything...my soulmate</div>
-    <div class="three"><em>I am proud and honored to be your husband</em></div>
+    <div class="three">I am proud and honored to be your husband</div>
     <div class="four">And I look forward to many more wonderful years together</div>
     <div class="five">But thats not all....</div>
     <div class="six"><a href="">Click here to see your next little surprise :)</a></div>
@@ -33,9 +39,9 @@
 
  <script>
     $('body').ripples({
-     resolution: 1350,
+     resolution: 1722,
      dropRadius: 10,
-     perturbance: 0.01,
+     perturbance: 0.02,
      });
 
      // Automatic drops - the rain effect
@@ -44,14 +50,14 @@
 		var x = Math.random() * $el.outerWidth();
 		var y = Math.random() * $el.outerHeight();
 		var dropRadius = 10;
-		var strength = 0.04 + Math.random() * 0.04;
+		var strength = 0.08 + Math.random() * 0.08;
 		$el.ripples('drop', x, y, dropRadius, strength);
 	}, 400);
 
 
   setTimeout(function(){
     $('body').ripples('hide')
-  }, 30000);
+  }, 120000);
  </script>
 </body>
 
